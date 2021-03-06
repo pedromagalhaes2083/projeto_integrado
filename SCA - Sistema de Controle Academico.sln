@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SCA - Sistema de Controle Academico", "SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico.csproj", "{3283864F-8974-4A84-B264-EAB5332C66A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{CDCB45D1-D237-4E2F-A893-D8BC8822C12A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTO", "DTO\DTO.csproj", "{F027372E-29C8-4DA5-B814-DAC35F7979C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TST", "TST\TST.csproj", "{305CD2DA-C693-4BE4-B3AA-5E3667942DDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3283864F-8974-4A84-B264-EAB5332C66A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3283864F-8974-4A84-B264-EAB5332C66A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3283864F-8974-4A84-B264-EAB5332C66A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3283864F-8974-4A84-B264-EAB5332C66A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDCB45D1-D237-4E2F-A893-D8BC8822C12A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDCB45D1-D237-4E2F-A893-D8BC8822C12A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDCB45D1-D237-4E2F-A893-D8BC8822C12A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDCB45D1-D237-4E2F-A893-D8BC8822C12A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F027372E-29C8-4DA5-B814-DAC35F7979C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F027372E-29C8-4DA5-B814-DAC35F7979C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F027372E-29C8-4DA5-B814-DAC35F7979C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F027372E-29C8-4DA5-B814-DAC35F7979C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{305CD2DA-C693-4BE4-B3AA-5E3667942DDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{305CD2DA-C693-4BE4-B3AA-5E3667942DDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{305CD2DA-C693-4BE4-B3AA-5E3667942DDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{305CD2DA-C693-4BE4-B3AA-5E3667942DDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2475D6E7-09D9-48FE-869A-F5A45A7B8F3F}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/pedromagalhaes2083
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BLL\\BLL.csproj
+		SccProjectName1 = BLL
+		SccLocalPath1 = BLL
+		SccProjectUniqueName2 = DTO\\DTO.csproj
+		SccProjectName2 = DTO
+		SccLocalPath2 = DTO
+		SccProjectUniqueName3 = SCA\u0020-\u0020Sistema\u0020de\u0020Controle\u0020Academico\\SCA\u0020-\u0020Sistema\u0020de\u0020Controle\u0020Academico.csproj
+		SccProjectName3 = SCA\u0020-\u0020Sistema\u0020de\u0020Controle\u0020Academico
+		SccLocalPath3 = SCA\u0020-\u0020Sistema\u0020de\u0020Controle\u0020Academico
+		SccProjectUniqueName4 = TST\\TST.csproj
+		SccProjectName4 = TST
+		SccLocalPath4 = TST
+	EndGlobalSection
+EndGlobal
