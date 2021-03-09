@@ -14,6 +14,6 @@ namespace DTO
         public static string Coautor_Existente => "Este coautor já esta cadastrado.";
         public static string Projeto_Apagar => "Esse projeto não pode ser apagado.";
         public static string Exclusao_Responsavel => "Esse responsável não pode ser excluído no momento.";
-        public static string Exclusao_Artigo => "Esse artigo não pode ser excluído.";
+        public static string Exclusao_Artigo => "Esse artigo não pode ser excluído, pois o mesmo possui coautores.";
     }
 }

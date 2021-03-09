@@ -62,6 +62,7 @@ namespace SCA___Sistema_de_Controle_Academico
             else
                 MessageBox.Show(USER_MESSAGE.Exclusao_Responsavel);
         }
+        // Buttons
         private void btn_excluir_Click(object sender, EventArgs e)
         {
             if (MessageBox.Show("Deseja mesmo excluir esse responsável?", "Exclusão de responsável", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
@@ -69,13 +70,11 @@ namespace SCA___Sistema_de_Controle_Academico
             else
                 this.Close();
         }
-
         private void btn_editar_Click(object sender, EventArgs e)
         {
             new Frm_Alter_Responsavel(this.id_responsavel).ShowDialog();
             this.Close();
         }
-
         private void btn_sair_Click(object sender, EventArgs e) => this.Close();
     }
 }

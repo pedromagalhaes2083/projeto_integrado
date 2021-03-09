@@ -33,7 +33,7 @@ namespace SCA___Sistema_de_Controle_Academico
         {
             DTB_Consulta dtb_consulta = new DTB_Consulta();
             dtb_consulta.str_Tabela = DTB_Tabela.Artigo;
-            dtb_consulta.str_Parametros = "Titulo, Natureza, Autor_Principal, Email";
+            dtb_consulta.str_Parametros = "ID_Projeto, Titulo, Natureza, Autor_Principal, Email";
             dtb_consulta.str_Parametro_Ordenador = "ID";
             dtb_consulta.str_Condicao = $"ID = {id_artigo}";
 
@@ -100,7 +100,7 @@ namespace SCA___Sistema_de_Controle_Academico
                 txt_email.Text = Retornar_String(dt_table, "Email");
                 txt_natureza.Text = Retornar_String(dt_table, "Natureza");
                 txt_titulo.Text = Retornar_String(dt_table, "Titulo");
-                cbx_projeto.SelectedIndex = cbx_projeto.FindStringExact(Retornar_String(dt_table, "ID_Projeto"));
+                cbx_projeto.SelectedItem = cbx_projeto.FindStringExact(Retornar_String(dt_table, "ID_Projeto"));
             }
             else
                 this.Close();

@@ -27,7 +27,7 @@ namespace SCA___Sistema_de_Controle_Academico
             dtb_consulta.str_Parametros = "ID, Titulo, Natureza, Autor_Principal, Email";
             dtb_consulta.str_Parametro_Ordenador = "Titulo";
             if (!string.IsNullOrWhiteSpace(pesquisa))
-                dtb_consulta.str_Condicao = $"Titulo LIKE '%{pesquisa}%' OR Autor LIKE '%{pesquisa}%'";
+                dtb_consulta.str_Condicao = $"Titulo LIKE '%{pesquisa}%' OR Autor_Principal LIKE '%{pesquisa}%'";
 
             return dtb_consulta;
         }

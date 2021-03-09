@@ -12,7 +12,7 @@ namespace BLL
     {
         public void Fpu_Insert(DTO_Artigo dto_artigo)
         {
-            string str_Command = $"INSERT INTO {DTB_Tabela.Artigo} ( ID_Projeto, Titulo, Natureza, Autor_Principal, Email) VALUE (@id_projeto, @titulo, @natureza, @autor, @email_autor)";
+            string str_Command = $"INSERT INTO {DTB_Tabela.Artigo} ( ID_Projeto, Titulo, Natureza, Autor_Principal, Email) VALUES (@id_projeto, @titulo, @natureza, @autor, @email_autor)";
             if (!(dto_artigo is null))
                 Fpr_SQL_Metodo(dto_artigo, str_Command);
             else
@@ -20,7 +20,7 @@ namespace BLL
         }
         public void Fpu_Update(DTO_Artigo dto_artigo)
         {
-            string str_Command = $"UPDATE {DTB_Tabela.Artigo} SET Titulo = @titulo, Natureza = @natureza, Autor_Principal = @autor, Email = @email";
+            string str_Command = $"UPDATE {DTB_Tabela.Artigo} SET Titulo = @titulo, Natureza = @natureza, Autor_Principal = @autor, Email = @email_autor WHERE ID = @id";
             if (!(dto_artigo is null))
                 Fpr_SQL_Metodo(dto_artigo, str_Command);
             else

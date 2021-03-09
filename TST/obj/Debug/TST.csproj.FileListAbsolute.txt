@@ -1,0 +1,13 @@
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\TST\bin\Debug\TST.exe.config
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\TST\bin\Debug\TST.exe
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\TST\bin\Debug\TST.pdb
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\TST\bin\Debug\DTO.exe
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\TST\bin\Debug\DTO.pdb
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\TST\bin\Debug\DTO.exe.config
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\TST\obj\Debug\TST.csprojAssemblyReference.cache
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\TST\obj\Debug\TST.Properties.Resources.resources
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\TST\obj\Debug\TST.csproj.GenerateResource.cache
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\TST\obj\Debug\TST.csproj.CoreCompileInputs.cache
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\TST\obj\Debug\TST.csproj.CopyComplete
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\TST\obj\Debug\TST.exe
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\TST\obj\Debug\TST.pdb

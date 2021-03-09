@@ -110,9 +110,41 @@ namespace SCA___Sistema_de_Controle_Academico
 
             Recolher_Panels();
         }
-        
+        // Action Bar
+        private void btn_novo_artigo_Click(object sender, EventArgs e)
+        {
+            Frm_Novo_Artigo frm_Novo_Artigo = new Frm_Novo_Artigo();
+            frm_Novo_Artigo.MdiParent = this;
+            frm_Novo_Artigo.Show();
 
-       
+            Recolher_Panels();
+        }
 
+        private void btn_novo_responsavel_Click(object sender, EventArgs e)
+        {
+            Frm_Novo_Responsavel frm_Novo_Responsavel = new Frm_Novo_Responsavel();
+            frm_Novo_Responsavel.MdiParent = this;
+            frm_Novo_Responsavel.Show();
+
+            Recolher_Panels();
+        }
+
+        private void btn_novo_projeto_Click(object sender, EventArgs e)
+        {
+            Frm_Novo_Projeto frm_Novo_Projeto = new Frm_Novo_Projeto();
+            frm_Novo_Projeto.MdiParent = this;
+            frm_Novo_Projeto.Show();
+
+            Recolher_Panels();
+        }
+
+        private void btn_novo_tcc_Click(object sender, EventArgs e)
+        {
+            Frm_Novo_TCC frm_Novo_TCC = new Frm_Novo_TCC();
+            frm_Novo_TCC.MdiParent = this;
+            frm_Novo_TCC.Show();
+
+            Recolher_Panels();
+        }
     }
 }

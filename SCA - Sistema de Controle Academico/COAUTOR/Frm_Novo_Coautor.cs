@@ -71,7 +71,7 @@ namespace SCA___Sistema_de_Controle_Academico
         private void Cadastrar(DTB_Consulta dtb_consulta)
         {
             DataTable dt_table = Consultar_Banco(dtb_consulta);
-            if (!Validar_DataTable(dt_table))
+            if (Validar_DataTable(dt_table))
                 Cadastrar_Coautor(Coautor());
             else
                 MessageBox.Show(USER_MESSAGE.Coautor_Existente);

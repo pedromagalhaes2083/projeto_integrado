@@ -293,6 +293,7 @@ namespace SCA___Sistema_de_Controle_Academico
             this.btn_novo_tcc.Size = new System.Drawing.Size(49, 49);
             this.btn_novo_tcc.TabIndex = 17;
             this.btn_novo_tcc.UseVisualStyleBackColor = false;
+            this.btn_novo_tcc.Click += new System.EventHandler(this.btn_novo_tcc_Click);
             // 
             // btn_novo_projeto
             // 
@@ -307,6 +308,7 @@ namespace SCA___Sistema_de_Controle_Academico
             this.btn_novo_projeto.Size = new System.Drawing.Size(49, 49);
             this.btn_novo_projeto.TabIndex = 16;
             this.btn_novo_projeto.UseVisualStyleBackColor = false;
+            this.btn_novo_projeto.Click += new System.EventHandler(this.btn_novo_projeto_Click);
             // 
             // btn_novo_artigo
             // 
@@ -321,6 +323,7 @@ namespace SCA___Sistema_de_Controle_Academico
             this.btn_novo_artigo.Size = new System.Drawing.Size(49, 49);
             this.btn_novo_artigo.TabIndex = 15;
             this.btn_novo_artigo.UseVisualStyleBackColor = false;
+            this.btn_novo_artigo.Click += new System.EventHandler(this.btn_novo_artigo_Click);
             // 
             // btn_informacoes
             // 
@@ -349,6 +352,7 @@ namespace SCA___Sistema_de_Controle_Academico
             this.btn_novo_responsavel.Size = new System.Drawing.Size(49, 49);
             this.btn_novo_responsavel.TabIndex = 8;
             this.btn_novo_responsavel.UseVisualStyleBackColor = false;
+            this.btn_novo_responsavel.Click += new System.EventHandler(this.btn_novo_responsavel_Click);
             // 
             // pnl_responsavel
             // 

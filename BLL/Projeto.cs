@@ -20,7 +20,7 @@ namespace BLL
         }
         public void Fpu_Update(DTO_Projeto dto_projeto)
         {
-            string str_Command = $"UPDATE {DTB_Tabela.Projeto} SET Titulo = @titulo, Data_Final = @data_Final,  ID_Responsavel = @id_responsavel WHERE ID = {dto_projeto.int_ID}";
+            string str_Command = $"UPDATE {DTB_Tabela.Projeto} SET Titulo = @titulo, Data_Final = @data_Final,  ID_Responsavel = @id_responsavel, Situacao = @situacao WHERE ID = {dto_projeto.int_ID}";
             if (!(dto_projeto is null))
                 Fpr_SQL_Seletivo(dto_projeto, str_Command);
             else

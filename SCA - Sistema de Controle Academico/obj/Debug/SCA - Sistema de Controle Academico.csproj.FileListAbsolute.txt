@@ -1,0 +1,42 @@
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\bin\Debug\SCA - Sistema de Controle Academico.exe.config
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\bin\Debug\SCA - Sistema de Controle Academico.exe
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\bin\Debug\SCA - Sistema de Controle Academico.pdb
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\bin\Debug\BLL.exe
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\bin\Debug\DTO.exe
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\bin\Debug\MetroFramework.dll
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\bin\Debug\TST.exe
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\bin\Debug\BLL.pdb
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\bin\Debug\BLL.exe.config
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\bin\Debug\DTO.pdb
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\bin\Debug\DTO.exe.config
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\bin\Debug\TST.pdb
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\bin\Debug\TST.exe.config
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\obj\Debug\SCA - Sistema de Controle Academico.csprojAssemblyReference.cache
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\obj\Debug\SCA___Sistema_de_Controle_Academico.Frm_Artigo.resources
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\obj\Debug\SCA___Sistema_de_Controle_Academico.Frm_Novo_Artigo.resources
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\obj\Debug\SCA___Sistema_de_Controle_Academico.Frm_Novo_Coautor.resources
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\obj\Debug\SCA___Sistema_de_Controle_Academico.Frm_Coautor.resources
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\obj\Debug\SCA___Sistema_de_Controle_Academico.Frm_Alter_Artigo.resources
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\obj\Debug\SCA___Sistema_de_Controle_Academico.Frm_Alter_Coautor.resources
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\obj\Debug\SCA___Sistema_de_Controle_Academico.Frm_Informacao.resources
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\obj\Debug\SCA___Sistema_de_Controle_Academico.Frm_Alter_Projeto.resources
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\obj\Debug\SCA___Sistema_de_Controle_Academico.Frm_Alter_Responsavel.resources
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\obj\Debug\SCA___Sistema_de_Controle_Academico.Frm_Alter_TCC.resources
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\obj\Debug\SCA___Sistema_de_Controle_Academico.OPC_Artigo.resources
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\obj\Debug\SCA___Sistema_de_Controle_Academico.OPC_Coautor.resources
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\obj\Debug\SCA___Sistema_de_Controle_Academico.OPC_Projeto.resources
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\obj\Debug\SCA___Sistema_de_Controle_Academico.OPC_Responsavel.resources
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\obj\Debug\SCA___Sistema_de_Controle_Academico.OPC_TCC.resources
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\obj\Debug\SCA___Sistema_de_Controle_Academico.Frm_TCC.resources
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\obj\Debug\SCA___Sistema_de_Controle_Academico.Main.resources
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\obj\Debug\SCA___Sistema_de_Controle_Academico.Frm_Novo_Projeto.resources
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\obj\Debug\SCA___Sistema_de_Controle_Academico.Frm_Novo_Responsavel.resources
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\obj\Debug\SCA___Sistema_de_Controle_Academico.Frm_Projeto.resources
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\obj\Debug\SCA___Sistema_de_Controle_Academico.Frm_Responsavel.resources
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\obj\Debug\SCA___Sistema_de_Controle_Academico.Properties.Resources.resources
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\obj\Debug\SCA___Sistema_de_Controle_Academico.Frm_Novo_TCC.resources
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\obj\Debug\SCA - Sistema de Controle Academico.csproj.GenerateResource.cache
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\obj\Debug\SCA - Sistema de Controle Academico.csproj.CoreCompileInputs.cache
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\obj\Debug\SCA - Sistema de Controle Academico.csproj.CopyComplete
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\obj\Debug\SCA - Sistema de Controle Academico.exe
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\obj\Debug\SCA - Sistema de Controle Academico.pdb

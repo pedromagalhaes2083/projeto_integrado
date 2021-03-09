@@ -41,7 +41,7 @@ namespace SCA___Sistema_de_Controle_Academico
             return dto_artigo;
         }
         // Validacoes >> TST
-        private bool Validar_DataTable(DataTable dt_table) => TST_DataTable.Validar_DataTable(dt_table);
+        private bool Validar_DataTable(DataTable dt_table) => !TST_DataTable.Validar_DataTable(dt_table);
         private bool Validar_Consulta(DTB_Consulta dtb_consulta) => TST_Consulta.Validar_Modelo(dtb_consulta);
         // Operacoes >> BLL
         private DataTable Consultar_Banco(DTB_Consulta dtb_consulta)
@@ -51,7 +51,7 @@ namespace SCA___Sistema_de_Controle_Academico
             else
                 return null;
         }
-        private void Delete(DTO_Artigo dto_artigo)
+        private void Deletar_Artigo(DTO_Artigo dto_artigo)
         {
             DataTable dt_table = Consultar_Banco(Consulta_Coautor());
             if (Validar_DataTable(dt_table))
@@ -62,8 +62,8 @@ namespace SCA___Sistema_de_Controle_Academico
             else
                 MessageBox.Show(USER_MESSAGE.Exclusao_Artigo);
         }
+        // Buttons
         private void btn_sair_Click(object sender, EventArgs e) => this.Close();
-
         private void btn_editar_Click(object sender, EventArgs e)
         {
             Frm_Alter_Artigo frm_Alter_Artigo = new Frm_Alter_Artigo(this.id_artigo); ;
@@ -71,6 +71,13 @@ namespace SCA___Sistema_de_Controle_Academico
 
             this.Close();
         }
-        private void btn_excluir_Click(object sender, EventArgs e) => Delete(Artigo());
+        private void btn_excluir_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Deseja mesmo excluir esse artigo?", "Exclusão de artigo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                Deletar_Artigo(Artigo());
+
+            else
+                this.Close();
+        }
     }
 }

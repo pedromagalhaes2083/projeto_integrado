@@ -13,7 +13,7 @@ namespace SCA___Sistema_de_Controle_Academico
 {
     public partial class Frm_Alter_Coautor : MetroForm
     {
-        public Frm_Alter_Coautor()
+        public Frm_Alter_Coautor(int id)
         {
             InitializeComponent();
         }
