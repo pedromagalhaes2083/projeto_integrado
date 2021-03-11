@@ -8,6 +8,7 @@ namespace DTO
 {
     public class USER_MESSAGE
     {
+        public static string Coautor_Vinculado => "Esse coautor já está vinculado a esse artigo";
         public static string Sucesso => "Sucesso.";
         public static string Modelo_Invalido => "Modelo Inválido.";
         public static string Artigo_Existente => "Esse artigo já esta cadastrado.";

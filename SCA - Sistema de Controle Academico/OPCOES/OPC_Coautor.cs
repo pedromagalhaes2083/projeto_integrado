@@ -35,10 +35,7 @@ namespace SCA___Sistema_de_Controle_Academico
         private void Deletar_Coautor(DTO_Coautor dto_coautor)
         {
             if (Validar_Identificador(dto_coautor.int_ID))
-            {
                 new Coautor().Fpu_Delete(dto_coautor);
-                MessageBox.Show(USER_MESSAGE.Sucesso);
-            }
             this.Close();
         }
         // Buttons

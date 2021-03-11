@@ -40,6 +40,16 @@ namespace SCA___Sistema_de_Controle_Academico
 
             return dto_coautor;
         }
+        private DTB_Consulta Consulta_Validacao(DTO_Coautor dto_coautor)
+        {
+            DTB_Consulta dtb_consulta = new DTB_Consulta();
+            dtb_consulta.str_Tabela = DTB_Tabela.Coautor;
+            dtb_consulta.str_Parametros = "ID_Artigo";
+            dtb_consulta.str_Parametro_Ordenador = "ID";
+            dtb_consulta.str_Condicao = $"ID_Artigo = {dto_coautor.int_ID_Artigo} AND Email LIKE '{dto_coautor.str_Email}'";
+
+            return dtb_consulta;
+        }
         // Validacoes >> TST
         private bool Validar_Consulta(DTB_Consulta dtb_consulta) => TST_Consulta.Validar_Modelo(dtb_consulta);
         private bool Validar_DataTable(DataTable dt_table) => TST_DataTable.Validar_DataTable(dt_table);
@@ -77,7 +87,15 @@ namespace SCA___Sistema_de_Controle_Academico
                 MessageBox.Show(USER_MESSAGE.Coautor_Existente);
         }
         // Buttons
-        private void btn_cadastrar_Click(object sender, EventArgs e) => Cadastrar(Consulta_Artigo());
+        private void btn_cadastrar_Click(object sender, EventArgs e)
+        {
+            DataTable dt_table = Consultar_Banco(Consulta_Validacao(Coautor()));
+            if (!Validar_DataTable(dt_table))
+                Cadastrar(Consulta_Artigo());
+            else
+                MessageBox.Show(USER_MESSAGE.Coautor_Vinculado);
+        }
+
         private void btn_sair_Click(object sender, EventArgs e) => this.Close();
     }
 }

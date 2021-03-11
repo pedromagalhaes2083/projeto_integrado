@@ -39,7 +39,7 @@ namespace SCA___Sistema_de_Controle_Academico
             this.cbx_artigo = new System.Windows.Forms.ComboBox();
             this.label13 = new System.Windows.Forms.Label();
             this.btn_sair = new System.Windows.Forms.Button();
-            this.btn_cadastrar = new System.Windows.Forms.Button();
+            this.btn_editar = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -138,24 +138,26 @@ namespace SCA___Sistema_de_Controle_Academico
             this.btn_sair.Text = "Sair";
             this.btn_sair.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btn_sair.UseVisualStyleBackColor = false;
+            this.btn_sair.Click += new System.EventHandler(this.btn_sair_Click);
             // 
-            // btn_cadastrar
+            // btn_editar
             // 
-            this.btn_cadastrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
-            this.btn_cadastrar.FlatAppearance.BorderSize = 0;
-            this.btn_cadastrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_cadastrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_cadastrar.ForeColor = System.Drawing.SystemColors.Control;
-            this.btn_cadastrar.Image = ((System.Drawing.Image)(resources.GetObject("btn_cadastrar.Image")));
-            this.btn_cadastrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_cadastrar.Location = new System.Drawing.Point(191, 189);
-            this.btn_cadastrar.Name = "btn_cadastrar";
-            this.btn_cadastrar.Size = new System.Drawing.Size(87, 35);
-            this.btn_cadastrar.TabIndex = 47;
-            this.btn_cadastrar.TabStop = false;
-            this.btn_cadastrar.Text = "Editar";
-            this.btn_cadastrar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.btn_cadastrar.UseVisualStyleBackColor = false;
+            this.btn_editar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
+            this.btn_editar.FlatAppearance.BorderSize = 0;
+            this.btn_editar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_editar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_editar.ForeColor = System.Drawing.SystemColors.Control;
+            this.btn_editar.Image = ((System.Drawing.Image)(resources.GetObject("btn_editar.Image")));
+            this.btn_editar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_editar.Location = new System.Drawing.Point(191, 189);
+            this.btn_editar.Name = "btn_editar";
+            this.btn_editar.Size = new System.Drawing.Size(87, 35);
+            this.btn_editar.TabIndex = 47;
+            this.btn_editar.TabStop = false;
+            this.btn_editar.Text = "Editar";
+            this.btn_editar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btn_editar.UseVisualStyleBackColor = false;
+            this.btn_editar.Click += new System.EventHandler(this.btn_editar_Click);
             // 
             // Frm_Alter_Coautor
             // 
@@ -163,12 +165,13 @@ namespace SCA___Sistema_de_Controle_Academico
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(468, 230);
             this.ControlBox = false;
-            this.Controls.Add(this.btn_cadastrar);
+            this.Controls.Add(this.btn_editar);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.btn_sair);
             this.Name = "Frm_Alter_Coautor";
             this.Resizable = false;
+            this.Load += new System.EventHandler(this.Frm_Alter_Coautor_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
@@ -187,6 +190,6 @@ namespace SCA___Sistema_de_Controle_Academico
         private System.Windows.Forms.ComboBox cbx_artigo;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Button btn_sair;
-        private System.Windows.Forms.Button btn_cadastrar;
+        private System.Windows.Forms.Button btn_editar;
     }
 }

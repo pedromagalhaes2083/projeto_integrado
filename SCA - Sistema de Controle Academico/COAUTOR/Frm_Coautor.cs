@@ -26,7 +26,7 @@ namespace SCA___Sistema_de_Controle_Academico
             string artigo = DTB_Tabela.Artigo;
 
             DTB_Consulta dtb_consulta = new DTB_Consulta();
-            dtb_consulta.str_Parametros = $"{coautor}.ID_Artigo, {artigo}.Titulo, {coautor}.Nome, {coautor}.Email";
+            dtb_consulta.str_Parametros = $"{coautor}.ID, {artigo}.Titulo, {coautor}.Nome, {coautor}.Email";
             dtb_consulta.str_Tabela = coautor;
             dtb_consulta.str_Tabela_Secundaria = artigo;
             dtb_consulta.str_On_Join = $"{coautor}.ID_Artigo = {artigo}.ID";
@@ -53,6 +53,13 @@ namespace SCA___Sistema_de_Controle_Academico
             dgv_dataGrid.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
             Nomear_DataGrid(dgv_dataGrid);
         }
+        private int Get_ID(DataGridView dgv_dataGrid, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+                return int.Parse(dgv_dataGrid.Rows[e.RowIndex].Cells["ID"].Value.ToString());
+            else
+                return 0;
+        }
         private void Nomear_DataGrid(DataGridView dgv_dataGrid)
         {
             if (Validar_DataGrid(dgv_dataGrid))
@@ -73,5 +80,13 @@ namespace SCA___Sistema_de_Controle_Academico
         private void btn_sair_Click(object sender, EventArgs e) => this.Close();
         // TextBox
         private void txt_pesquisa_TextChanged(object sender, EventArgs e) => Prencher_DataGrid(dgv_coautor, Consulta_Coautor(txt_pesquisa.Text));
+        // DataGrid
+        private void dgv_coautor_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int id = Get_ID(dgv_coautor, e);
+            if(id > 0)
+                new OPC_Coautor(id).ShowDialog();
+            Prencher_DataGrid(dgv_coautor, Consulta_Coautor(""));
+        }
     }
 }

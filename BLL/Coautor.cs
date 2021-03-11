@@ -20,7 +20,7 @@ namespace BLL
         }
         public void Fpu_Update(DTO_Coautor dto_coautor)
         {
-            string str_Command = $"UPDATE {DTB_Tabela.Coautor} SET Nome = @nome, Email = @email WHERE ID = @id";
+            string str_Command = $"UPDATE {DTB_Tabela.Coautor} SET Nome = @nome, Email = @email, ID_Artigo = @id_artigo WHERE ID = @id";
             if (!(dto_coautor is null))
                 Fpr_SQL_Seletivo(dto_coautor, str_Command);
             else

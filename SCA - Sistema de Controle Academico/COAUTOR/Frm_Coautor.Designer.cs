@@ -64,6 +64,7 @@ namespace SCA___Sistema_de_Controle_Academico
             this.dgv_coautor.ReadOnly = true;
             this.dgv_coautor.Size = new System.Drawing.Size(777, 305);
             this.dgv_coautor.TabIndex = 4;
+            this.dgv_coautor.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_coautor_CellDoubleClick);
             // 
             // label2
             // 
