@@ -16,10 +16,7 @@ namespace SCA___Sistema_de_Controle_Academico
 {
     public partial class Frm_Novo_TCC : MetroForm
     {
-        public Frm_Novo_TCC()
-        {
-            InitializeComponent();
-        }
+        public Frm_Novo_TCC() => InitializeComponent();
         // Load
         private void Frm_Novo_TCC_Load(object sender, EventArgs e) => Prencher_ComboBox(Consulta_Projeto(), cbx_projeto);
         // Modelos >> DTB/DTO
@@ -36,7 +33,7 @@ namespace SCA___Sistema_de_Controle_Academico
         {
             DTO_TCC dto_tcc = new DTO_TCC();
             dto_tcc.int_ID_Projeto = int.Parse(cbx_projeto.SelectedValue.ToString());
-            dto_tcc.str_Nome = txt_nome.Text;
+            dto_tcc.str_Autor = txt_nome.Text;
             dto_tcc.str_Titulo = txt_titulo.Text;
             dto_tcc.str_Situacao = DTC_Status_TCC.Em_desenvolvimento;
 
@@ -50,7 +47,7 @@ namespace SCA___Sistema_de_Controle_Academico
         private DataTable Consultar_Banco(DTB_Consulta dtb_consulta)
         {
             if (Validar_Consulta(dtb_consulta))
-                return new Consulta().Consultar_Left_Join(dtb_consulta);
+                return new Consulta().Consultar(dtb_consulta);
             else
                 return null;
         }

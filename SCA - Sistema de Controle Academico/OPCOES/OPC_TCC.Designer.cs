@@ -52,6 +52,7 @@ namespace SCA___Sistema_de_Controle_Academico
             this.btn_sair.TabIndex = 42;
             this.btn_sair.Text = "Sair";
             this.btn_sair.UseVisualStyleBackColor = false;
+            this.btn_sair.Click += new System.EventHandler(this.btn_sair_Click);
             // 
             // btn_excluir
             // 
@@ -68,6 +69,7 @@ namespace SCA___Sistema_de_Controle_Academico
             this.btn_excluir.TabIndex = 41;
             this.btn_excluir.Text = "Excluir";
             this.btn_excluir.UseVisualStyleBackColor = false;
+            this.btn_excluir.Click += new System.EventHandler(this.btn_excluir_Click);
             // 
             // btn_editar
             // 
@@ -84,6 +86,7 @@ namespace SCA___Sistema_de_Controle_Academico
             this.btn_editar.TabIndex = 43;
             this.btn_editar.Text = "Editar";
             this.btn_editar.UseVisualStyleBackColor = false;
+            this.btn_editar.Click += new System.EventHandler(this.btn_editar_Click);
             // 
             // pnl_fundo
             // 

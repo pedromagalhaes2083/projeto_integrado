@@ -63,9 +63,9 @@ namespace SCA___Sistema_de_Controle_Academico
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(3, 100);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(45, 16);
+            this.label6.Size = new System.Drawing.Size(39, 16);
             this.label6.TabIndex = 13;
-            this.label6.Text = "Nome";
+            this.label6.Text = "Autor";
             // 
             // txt_nome
             // 

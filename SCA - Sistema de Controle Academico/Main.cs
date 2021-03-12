@@ -146,5 +146,14 @@ namespace SCA___Sistema_de_Controle_Academico
 
             Recolher_Panels();
         }
+
+        private void btn_informacoes_Click(object sender, EventArgs e)
+        {
+            Frm_Informacao frm_Informacao = new Frm_Informacao();
+            frm_Informacao.MdiParent = this;
+            frm_Informacao.Show();
+
+            Recolher_Panels();
+        }
     }
 }

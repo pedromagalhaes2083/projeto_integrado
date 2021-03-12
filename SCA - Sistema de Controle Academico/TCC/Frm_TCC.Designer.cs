@@ -91,6 +91,7 @@ namespace SCA___Sistema_de_Controle_Academico
             this.dgv_tcc.ReadOnly = true;
             this.dgv_tcc.Size = new System.Drawing.Size(777, 305);
             this.dgv_tcc.TabIndex = 4;
+            this.dgv_tcc.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_tcc_CellContentDoubleClick);
             // 
             // label2
             // 

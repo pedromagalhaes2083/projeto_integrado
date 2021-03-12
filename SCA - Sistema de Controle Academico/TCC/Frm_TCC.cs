@@ -20,21 +20,21 @@ namespace SCA___Sistema_de_Controle_Academico
         // Load
         private void Frm_TCC_Load(object sender, EventArgs e)
         {
-
+            Prencher_DataGrid(dgv_tcc, Consulta_TCC(""));
         }
         // Modelos >> DTB
         private DTB_Consulta Consulta_TCC(string pesquisa)
         {
-            string responsavel = DTB_Tabela.Responsavel;
+            string projeto = DTB_Tabela.Projeto;
             string tcc = DTB_Tabela.TCC;
 
             DTB_Consulta dtb_consulta = new DTB_Consulta();
-            dtb_consulta.str_Parametros = $"{tcc}.ID, {tcc}.Situacao, {responsavel}.Nome, {tcc}.Titulo, {tcc}.Autor";
+            dtb_consulta.str_Parametros = $"{tcc}.ID,  {tcc}.Situacao, {projeto}.Titulo, {tcc}.Titulo, {tcc}.Autor";
             dtb_consulta.str_Tabela = tcc;
-            dtb_consulta.str_Tabela_Secundaria = responsavel;
-            dtb_consulta.str_On_Join = $"{tcc}.ID_Projeto = {responsavel}.ID_Projeto";
+            dtb_consulta.str_Tabela_Secundaria = projeto;
+            dtb_consulta.str_On_Join = $" {tcc}.ID_Projeto = {projeto}.ID";
             if (!string.IsNullOrWhiteSpace(pesquisa))
-                dtb_consulta.str_Condicao = $"{tcc}.Autor LIKE '%{pesquisa}%'";
+                dtb_consulta.str_Condicao = $"{tcc}.Autor LIKE '%{pesquisa}%' OR {tcc}.Titulo LIKE '%{pesquisa}%'";
 
             return dtb_consulta;
         }
@@ -53,7 +53,7 @@ namespace SCA___Sistema_de_Controle_Academico
         private void Prencher_DataGrid(DataGridView dgv_dataGrid, DTB_Consulta dtb_consulta)
         {
             dgv_dataGrid.DataSource = Consultar_Banco(dtb_consulta);
-            dgv_dataGrid.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgv_dataGrid.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells;
             Nomear_DataGrid(dgv_dataGrid);
         }
         private void Nomear_DataGrid(DataGridView dgv_dataGrid)
@@ -62,10 +62,17 @@ namespace SCA___Sistema_de_Controle_Academico
             {
                 dgv_dataGrid.Columns[0].HeaderText = "Cod.";
                 dgv_dataGrid.Columns[1].HeaderText = "Situação";
-                dgv_dataGrid.Columns[2].HeaderText = "Responsável pelo Projeto";
+                dgv_dataGrid.Columns[2].HeaderText = "Projeto";
                 dgv_dataGrid.Columns[3].HeaderText = "Titulo";
                 dgv_dataGrid.Columns[4].HeaderText = "Autor";
             }
+        }
+        private int Get_ID(DataGridView dgv_dataGrid, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+                return int.Parse(dgv_dataGrid.Rows[e.RowIndex].Cells["ID"].Value.ToString());
+            else
+                return 0;
         }
         // Buttons
         private void btn_sair_Click(object sender, EventArgs e) => this.Close();
@@ -77,5 +84,13 @@ namespace SCA___Sistema_de_Controle_Academico
         }
         // TextBox
         private void txt_pesquisa_TextChanged(object sender, EventArgs e) => Prencher_DataGrid(dgv_tcc, Consulta_TCC(txt_pesquisa.Text));
+        // DataGrid
+        private void dgv_tcc_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int id = Get_ID(dgv_tcc, e);
+            if (id > 0)
+                new OPC_TCC(id).ShowDialog();
+            Prencher_DataGrid(dgv_tcc, Consulta_TCC(""));
+        }
     }
 }

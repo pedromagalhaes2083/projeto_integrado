@@ -22,7 +22,7 @@ namespace TST
                 return false;
             else if (string.IsNullOrWhiteSpace(dto_tcc.str_Titulo))
                 return false;
-            else if (string.IsNullOrWhiteSpace(dto_tcc.str_Nome))
+            else if (string.IsNullOrWhiteSpace(dto_tcc.str_Autor))
                 return false;
             else if (string.IsNullOrWhiteSpace(dto_tcc.str_Situacao))
                 return false;

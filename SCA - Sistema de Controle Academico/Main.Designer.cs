@@ -338,6 +338,7 @@ namespace SCA___Sistema_de_Controle_Academico
             this.btn_informacoes.Size = new System.Drawing.Size(49, 49);
             this.btn_informacoes.TabIndex = 11;
             this.btn_informacoes.UseVisualStyleBackColor = false;
+            this.btn_informacoes.Click += new System.EventHandler(this.btn_informacoes_Click);
             // 
             // btn_novo_responsavel
             // 

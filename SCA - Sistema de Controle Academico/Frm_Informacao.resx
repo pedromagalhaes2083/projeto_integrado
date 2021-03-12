@@ -137,6 +137,13 @@
         D4619dj+hnDinPyn4+0ylgYJCV8BAi1fsLXG3CcAAAAASUVORK5CYII=
 </value>
   </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Projeto de controle de trabalhos acadêmicos, produzido com o intuito de colocar em prática
+o conhecimento dos envolvidos nas seguintes áreas: Engenharia de Software, Banco de Dados, 
+Programação Orientada a Objetos.
+
+</value>
+  </data>
   <data name="btn_novo_tcc.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAAlBJREFUSEvN
