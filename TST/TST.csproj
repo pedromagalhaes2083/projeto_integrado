@@ -57,9 +57,11 @@
     <Compile Include="TST_Consulta.cs" />
     <Compile Include="TST_DataGrid.cs" />
     <Compile Include="TST_DataTable.cs" />
+    <Compile Include="TST_Login.cs" />
     <Compile Include="TST_Projeto.cs" />
     <Compile Include="TST_Responsavel.cs" />
     <Compile Include="TST_TCC.cs" />
+    <Compile Include="TST_Usuario.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

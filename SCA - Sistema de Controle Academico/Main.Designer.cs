@@ -54,6 +54,16 @@ namespace SCA___Sistema_de_Controle_Academico
             this.btn_resp_responsavel = new System.Windows.Forms.Button();
             this.pnl_projetos = new System.Windows.Forms.Panel();
             this.btn_pro_projetos = new System.Windows.Forms.Button();
+            this.btn_lat_usuarios = new System.Windows.Forms.Button();
+            this.pnl_login = new System.Windows.Forms.Panel();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txt_login = new System.Windows.Forms.TextBox();
+            this.txt_senha = new System.Windows.Forms.TextBox();
+            this.btn_efetuar_login = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.btn_lat_login = new System.Windows.Forms.Button();
             this.pnl_coautores.SuspendLayout();
             this.pnl_artigos.SuspendLayout();
             this.pnl_tcc.SuspendLayout();
@@ -61,6 +71,8 @@ namespace SCA___Sistema_de_Controle_Academico
             this.pnl_base_esquerda.SuspendLayout();
             this.pnl_responsavel.SuspendLayout();
             this.pnl_projetos.SuspendLayout();
+            this.pnl_login.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btn_art_artigos
@@ -270,6 +282,8 @@ namespace SCA___Sistema_de_Controle_Academico
             // 
             this.pnl_base_esquerda.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
+            this.pnl_base_esquerda.Controls.Add(this.btn_lat_login);
+            this.pnl_base_esquerda.Controls.Add(this.btn_lat_usuarios);
             this.pnl_base_esquerda.Controls.Add(this.btn_novo_tcc);
             this.pnl_base_esquerda.Controls.Add(this.btn_novo_projeto);
             this.pnl_base_esquerda.Controls.Add(this.btn_novo_artigo);
@@ -288,7 +302,7 @@ namespace SCA___Sistema_de_Controle_Academico
             this.btn_novo_tcc.FlatAppearance.BorderSize = 0;
             this.btn_novo_tcc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_novo_tcc.Image = ((System.Drawing.Image)(resources.GetObject("btn_novo_tcc.Image")));
-            this.btn_novo_tcc.Location = new System.Drawing.Point(2, 307);
+            this.btn_novo_tcc.Location = new System.Drawing.Point(2, 252);
             this.btn_novo_tcc.Name = "btn_novo_tcc";
             this.btn_novo_tcc.Size = new System.Drawing.Size(49, 49);
             this.btn_novo_tcc.TabIndex = 17;
@@ -303,7 +317,7 @@ namespace SCA___Sistema_de_Controle_Academico
             this.btn_novo_projeto.FlatAppearance.BorderSize = 0;
             this.btn_novo_projeto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_novo_projeto.Image = ((System.Drawing.Image)(resources.GetObject("btn_novo_projeto.Image")));
-            this.btn_novo_projeto.Location = new System.Drawing.Point(2, 252);
+            this.btn_novo_projeto.Location = new System.Drawing.Point(2, 197);
             this.btn_novo_projeto.Name = "btn_novo_projeto";
             this.btn_novo_projeto.Size = new System.Drawing.Size(49, 49);
             this.btn_novo_projeto.TabIndex = 16;
@@ -318,7 +332,7 @@ namespace SCA___Sistema_de_Controle_Academico
             this.btn_novo_artigo.FlatAppearance.BorderSize = 0;
             this.btn_novo_artigo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_novo_artigo.Image = ((System.Drawing.Image)(resources.GetObject("btn_novo_artigo.Image")));
-            this.btn_novo_artigo.Location = new System.Drawing.Point(2, 142);
+            this.btn_novo_artigo.Location = new System.Drawing.Point(2, 87);
             this.btn_novo_artigo.Name = "btn_novo_artigo";
             this.btn_novo_artigo.Size = new System.Drawing.Size(49, 49);
             this.btn_novo_artigo.TabIndex = 15;
@@ -348,7 +362,7 @@ namespace SCA___Sistema_de_Controle_Academico
             this.btn_novo_responsavel.FlatAppearance.BorderSize = 0;
             this.btn_novo_responsavel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_novo_responsavel.Image = ((System.Drawing.Image)(resources.GetObject("btn_novo_responsavel.Image")));
-            this.btn_novo_responsavel.Location = new System.Drawing.Point(2, 197);
+            this.btn_novo_responsavel.Location = new System.Drawing.Point(2, 142);
             this.btn_novo_responsavel.Name = "btn_novo_responsavel";
             this.btn_novo_responsavel.Size = new System.Drawing.Size(49, 49);
             this.btn_novo_responsavel.TabIndex = 8;
@@ -407,12 +421,131 @@ namespace SCA___Sistema_de_Controle_Academico
             this.btn_pro_projetos.UseVisualStyleBackColor = false;
             this.btn_pro_projetos.Click += new System.EventHandler(this.btn_pro_projetos_Click);
             // 
+            // btn_lat_usuarios
+            // 
+            this.btn_lat_usuarios.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.btn_lat_usuarios.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn_lat_usuarios.BackColor = System.Drawing.Color.White;
+            this.btn_lat_usuarios.FlatAppearance.BorderSize = 0;
+            this.btn_lat_usuarios.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_lat_usuarios.Image = ((System.Drawing.Image)(resources.GetObject("btn_lat_usuarios.Image")));
+            this.btn_lat_usuarios.Location = new System.Drawing.Point(2, 362);
+            this.btn_lat_usuarios.Name = "btn_lat_usuarios";
+            this.btn_lat_usuarios.Size = new System.Drawing.Size(49, 49);
+            this.btn_lat_usuarios.TabIndex = 18;
+            this.btn_lat_usuarios.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btn_lat_usuarios.UseVisualStyleBackColor = false;
+            this.btn_lat_usuarios.Click += new System.EventHandler(this.btn_lat_usuarios_Click);
+            // 
+            // pnl_login
+            // 
+            this.pnl_login.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.pnl_login.Controls.Add(this.groupBox1);
+            this.pnl_login.Controls.Add(this.btn_efetuar_login);
+            this.pnl_login.Controls.Add(this.label1);
+            this.pnl_login.Location = new System.Drawing.Point(52, 286);
+            this.pnl_login.Name = "pnl_login";
+            this.pnl_login.Size = new System.Drawing.Size(218, 270);
+            this.pnl_login.TabIndex = 26;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.txt_login);
+            this.groupBox1.Controls.Add(this.txt_senha);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
+            this.groupBox1.Location = new System.Drawing.Point(15, 37);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(186, 161);
+            this.groupBox1.TabIndex = 43;
+            this.groupBox1.TabStop = false;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(14, 88);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(47, 16);
+            this.label3.TabIndex = 44;
+            this.label3.Text = "Senha";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(17, 31);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(41, 16);
+            this.label2.TabIndex = 43;
+            this.label2.Text = "Login";
+            // 
+            // txt_login
+            // 
+            this.txt_login.Location = new System.Drawing.Point(17, 50);
+            this.txt_login.Name = "txt_login";
+            this.txt_login.Size = new System.Drawing.Size(155, 22);
+            this.txt_login.TabIndex = 41;
+            // 
+            // txt_senha
+            // 
+            this.txt_senha.Location = new System.Drawing.Point(17, 107);
+            this.txt_senha.Name = "txt_senha";
+            this.txt_senha.PasswordChar = '*';
+            this.txt_senha.Size = new System.Drawing.Size(155, 22);
+            this.txt_senha.TabIndex = 42;
+            // 
+            // btn_efetuar_login
+            // 
+            this.btn_efetuar_login.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
+            this.btn_efetuar_login.FlatAppearance.BorderSize = 0;
+            this.btn_efetuar_login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_efetuar_login.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_efetuar_login.ForeColor = System.Drawing.SystemColors.Control;
+            this.btn_efetuar_login.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_efetuar_login.Location = new System.Drawing.Point(64, 221);
+            this.btn_efetuar_login.Name = "btn_efetuar_login";
+            this.btn_efetuar_login.Size = new System.Drawing.Size(90, 35);
+            this.btn_efetuar_login.TabIndex = 40;
+            this.btn_efetuar_login.TabStop = false;
+            this.btn_efetuar_login.Text = "Login";
+            this.btn_efetuar_login.UseVisualStyleBackColor = false;
+            this.btn_efetuar_login.Click += new System.EventHandler(this.btn_efetuar_login_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(153)))), ((int)(((byte)(255)))));
+            this.label1.Location = new System.Drawing.Point(70, 5);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(78, 29);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Login";
+            // 
+            // btn_lat_login
+            // 
+            this.btn_lat_login.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.btn_lat_login.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btn_lat_login.BackColor = System.Drawing.Color.White;
+            this.btn_lat_login.FlatAppearance.BorderSize = 0;
+            this.btn_lat_login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_lat_login.Image = ((System.Drawing.Image)(resources.GetObject("btn_lat_login.Image")));
+            this.btn_lat_login.Location = new System.Drawing.Point(2, 307);
+            this.btn_lat_login.Name = "btn_lat_login";
+            this.btn_lat_login.Size = new System.Drawing.Size(49, 49);
+            this.btn_lat_login.TabIndex = 19;
+            this.btn_lat_login.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btn_lat_login.UseVisualStyleBackColor = false;
+            this.btn_lat_login.Click += new System.EventHandler(this.btn_lat_login_Click);
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1123, 557);
+            this.Controls.Add(this.pnl_login);
             this.Controls.Add(this.pnl_projetos);
             this.Controls.Add(this.pnl_coautores);
             this.Controls.Add(this.pnl_artigos);
@@ -432,6 +565,10 @@ namespace SCA___Sistema_de_Controle_Academico
             this.pnl_base_esquerda.ResumeLayout(false);
             this.pnl_responsavel.ResumeLayout(false);
             this.pnl_projetos.ResumeLayout(false);
+            this.pnl_login.ResumeLayout(false);
+            this.pnl_login.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -461,5 +598,15 @@ namespace SCA___Sistema_de_Controle_Academico
         private System.Windows.Forms.Button btn_novo_projeto;
         private System.Windows.Forms.Panel pnl_projetos;
         private System.Windows.Forms.Button btn_pro_projetos;
+        private System.Windows.Forms.Button btn_lat_usuarios;
+        private System.Windows.Forms.Panel pnl_login;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txt_login;
+        private System.Windows.Forms.TextBox txt_senha;
+        private System.Windows.Forms.Button btn_efetuar_login;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btn_lat_login;
     }
 }

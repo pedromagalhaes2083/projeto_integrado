@@ -89,6 +89,36 @@
     <Compile Include="COAUTOR\Frm_Alter_Coautor.Designer.cs">
       <DependentUpon>Frm_Alter_Coautor.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_Alter_Usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Alter_Usuario.Designer.cs">
+      <DependentUpon>Frm_Alter_Usuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Novo_Usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Novo_Usuario.Designer.cs">
+      <DependentUpon>Frm_Novo_Usuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Usuario.Designer.cs">
+      <DependentUpon>Frm_Usuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OPC_Usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OPC_Usuario.Designer.cs">
+      <DependentUpon>OPC_Usuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OPR_Exclusao_Usuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OPR_Exclusao_Usuario.Designer.cs">
+      <DependentUpon>OPR_Exclusao_Usuario.cs</DependentUpon>
+    </Compile>
     <Compile Include="PROJETO\Frm_Alter_Projeto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -205,8 +235,23 @@
     <EmbeddedResource Include="COAUTOR\Frm_Alter_Coautor.resx">
       <DependentUpon>Frm_Alter_Coautor.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Alter_Usuario.resx">
+      <DependentUpon>Frm_Alter_Usuario.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_Informacao.resx">
       <DependentUpon>Frm_Informacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Novo_Usuario.resx">
+      <DependentUpon>Frm_Novo_Usuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Usuario.resx">
+      <DependentUpon>Frm_Usuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OPC_Usuario.resx">
+      <DependentUpon>OPC_Usuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OPR_Exclusao_Usuario.resx">
+      <DependentUpon>OPR_Exclusao_Usuario.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PROJETO\Frm_Alter_Projeto.resx">
       <DependentUpon>Frm_Alter_Projeto.cs</DependentUpon>

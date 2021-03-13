@@ -11,3 +11,6 @@ C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\BLL\obj\Debug\BL
 C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\BLL\obj\Debug\BLL.csproj.CopyComplete
 C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\BLL\obj\Debug\BLL.exe
 C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\BLL\obj\Debug\BLL.pdb
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\BLL\bin\Debug\TST.exe
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\BLL\bin\Debug\TST.pdb
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\BLL\bin\Debug\TST.exe.config

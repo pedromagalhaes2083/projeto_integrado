@@ -67,12 +67,19 @@ namespace SCA___Sistema_de_Controle_Academico
             {
                 new Artigo().Fpu_Insert(dto_artigo);
                 MessageBox.Show(USER_MESSAGE.Sucesso);
-
+                Limpar();
             }
             else
                 MessageBox.Show(USER_MESSAGE.Modelo_Invalido);
         }
         // Operacoes
+        private void Limpar()
+        {
+            txt_autor.Text = string.Empty;
+            txt_email.Text = string.Empty;
+            txt_natureza.Text = string.Empty;
+            txt_titulo.Text = string.Empty;
+        }
         private void Cadastrar(DTO_Artigo dto_artigo)
         {
             DataTable dt_table = Consultar_Banco(Consulta_Artigo(dto_artigo.str_Titulo, dto_artigo.int_ID_Projeto));

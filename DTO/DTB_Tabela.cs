@@ -13,5 +13,6 @@ namespace DTO
         public static string Responsavel => "tb_Responsavel";
         public static string Projeto => "tb_Projeto";
         public static string Coautor => "tb_Coautor";
+        public static string Usuario => "tb_Usuario";
     }
 }

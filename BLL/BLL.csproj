@@ -53,12 +53,14 @@
     <Compile Include="Artigo.cs" />
     <Compile Include="Coautor.cs" />
     <Compile Include="CONSULTAS\Consulta.cs" />
+    <Compile Include="Login.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Projeto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="CONSULTAS\Retorno_Consulta.cs" />
     <Compile Include="Responsavel.cs" />
     <Compile Include="TCC.cs" />
+    <Compile Include="Usuario.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -85,6 +87,10 @@
     <ProjectReference Include="..\DTO\DTO.csproj">
       <Project>{f027372e-29c8-4da5-b814-dac35f7979c8}</Project>
       <Name>DTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TST\TST.csproj">
+      <Project>{305cd2da-c693-4be4-b3aa-5e3667942dde}</Project>
+      <Name>TST</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

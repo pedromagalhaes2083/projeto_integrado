@@ -60,6 +60,7 @@
     <Compile Include="DTB_Tabela.cs" />
     <Compile Include="DTC_Status_Projeto.cs" />
     <Compile Include="DTC_Status_TCC.cs" />
+    <Compile Include="DTO_Usuario.cs" />
     <Compile Include="ERRO_MESSAGE.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

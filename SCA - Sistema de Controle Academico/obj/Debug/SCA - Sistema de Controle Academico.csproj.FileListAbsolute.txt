@@ -40,3 +40,8 @@ C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de
 C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\obj\Debug\SCA - Sistema de Controle Academico.csproj.CopyComplete
 C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\obj\Debug\SCA - Sistema de Controle Academico.exe
 C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\obj\Debug\SCA - Sistema de Controle Academico.pdb
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\obj\Debug\SCA___Sistema_de_Controle_Academico.Frm_Alter_Usuario.resources
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\obj\Debug\SCA___Sistema_de_Controle_Academico.Frm_Novo_Usuario.resources
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\obj\Debug\SCA___Sistema_de_Controle_Academico.Frm_Usuario.resources
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\obj\Debug\SCA___Sistema_de_Controle_Academico.OPC_Usuario.resources
+C:\Users\pedro\source\repos\SCA - Sistema de Controle Academico\SCA - Sistema de Controle Academico\obj\Debug\SCA___Sistema_de_Controle_Academico.OPR_Exclusao_Usuario.resources

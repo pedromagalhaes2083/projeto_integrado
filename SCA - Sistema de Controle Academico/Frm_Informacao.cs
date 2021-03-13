@@ -22,5 +22,7 @@ namespace SCA___Sistema_de_Controle_Academico
         {
 
         }
+
+        private void btn_sair_Click(object sender, EventArgs e) => this.Close();
     }
 }
