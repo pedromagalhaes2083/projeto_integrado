@@ -41,6 +41,8 @@ namespace SCA___Sistema_de_Controle_Academico
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,7 +55,7 @@ namespace SCA___Sistema_de_Controle_Academico
             this.btn_sair.ForeColor = System.Drawing.SystemColors.Control;
             this.btn_sair.Image = ((System.Drawing.Image)(resources.GetObject("btn_sair.Image")));
             this.btn_sair.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_sair.Location = new System.Drawing.Point(6, 408);
+            this.btn_sair.Location = new System.Drawing.Point(6, 351);
             this.btn_sair.Name = "btn_sair";
             this.btn_sair.Size = new System.Drawing.Size(74, 35);
             this.btn_sair.TabIndex = 45;
@@ -65,6 +67,8 @@ namespace SCA___Sistema_de_Controle_Academico
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.label7);
+            this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.linkLabel1);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.label5);
@@ -76,7 +80,7 @@ namespace SCA___Sistema_de_Controle_Academico
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F);
             this.groupBox1.Location = new System.Drawing.Point(6, 36);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(789, 366);
+            this.groupBox1.Size = new System.Drawing.Size(789, 309);
             this.groupBox1.TabIndex = 43;
             this.groupBox1.TabStop = false;
             // 
@@ -170,11 +174,32 @@ namespace SCA___Sistema_de_Controle_Academico
             this.label13.TabIndex = 46;
             this.label13.Text = "Informações";
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(417, 136);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(252, 96);
+            this.label7.TabIndex = 9;
+            this.label7.Text = "- João Vitor (Banco de Dados)\r\n- Simão Pedro (Programação)\r\n- Jonatas (Interfaces" +
+    ")\r\n- Eviny (Programação - Classes da DAO)\r\n- Mayara  (Interfaces)\r\n- Pedro Paulo" +
+    " (Banco de Dados) ";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(417, 110);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(103, 16);
+            this.label9.TabIndex = 8;
+            this.label9.Text = "Contribuições";
+            // 
             // Frm_Informacao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 391);
             this.ControlBox = false;
             this.Controls.Add(this.btn_sair);
             this.Controls.Add(this.groupBox1);
@@ -202,5 +227,7 @@ namespace SCA___Sistema_de_Controle_Academico
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label9;
     }
 }
